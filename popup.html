@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resource Injector</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="banner">
+    <img src="https://venturebeat.com/wp-content/uploads/2022/11/press_release_banner.jpg" alt="Banner" width="100%">
+  </div>
+
+  <div class="container">
+    <section class="how-to-use">
+      <h2>How to Use</h2>
+      <p>1. Start the Farm Merge Valley activity;<br>
+         2. Click on the 'Init' button;<br>
+         3. Select the resource you want to add and specify its amount;<br>
+         4. Click on the 'Inject' button to apply the changes.</p>
+    </section>
+
+    <section class="init">
+      <h3>Initialization</h3>
+      <button id="init">Initialize</button>
+      <p id="init-status"></p>
+    </section>
+
+    <section class="injector">
+      <h3>Resource Injector</h3>
+      <label for="resource">Select Resource:</label>
+      <select id="resource">
+        <!-- List of resources with updated options -->
+        <option value="coins">Coins</option>
+        <option value="gems">Gems</option>
+        <option value="exp">Experience</option>
+        <option value="crates">Crates</option>
+        <option value="energy">Energy</option>
+        <option value="tickets">Tickets</option>
+        <option value="wheat">Wheat</option>
+        <option value="egg">Egg</option>
+        <option value="sunflower">Sunflower</option>
+        <option value="milk">Milk</option>
+        <option value="sugarcane">Sugarcane</option>
+        <option value="bacon">Bacon</option>
+        <option value="carrot">Carrot</option>
+        <option value="goatmilk">Goatmilk</option>
+        <option value="soybeans">Soybeans</option>
+        <option value="wool">Wool</option>
+        <option value="corn">Corn</option>
+        <option value="fur">Fur</option>
+        <option value="coffeebeans">Coffeebeans</option>
+        <option value="tomato">Tomato</option>
+        <option value="avocado">Avocado</option>
+        <option value="truffle">Truffle</option>
+      </select>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" value="1" min="1">
+      <button id="inject">Inject</button>
+      <p id="inject-status"></p>
+    </section>
+
+    <footer class="footer">
+      <p>Made by <a href="https://github.com/AstraaDev" target="_blank">Killixn</a></p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
