@@ -21,7 +21,7 @@ The FMV Chrome Extension provides a user-friendly graphical interface (GUI) for 
 3. Load the extension in Chrome:
    - Open Chrome and navigate to `chrome://extensions/`.
    - Enable "Developer mode" in the top right corner.
-   - Click "Load unpacked" and select the `dist` folder from the project directory.
+   - Click "Load unpacked" and select the folder from the project directory.
 
 ## Example Chrome Extension
 <img src="https://cdn.discordapp.com/attachments/1079127307656122501/1326704198133481512/image.png?ex=67806511&is=677f1391&hm=33b77d0dd44ed23b8fb19bd8ecf6e9f4d230986feb9e294078da6165dcca9ae8&" alt="FMV Chrome Extension" width="400">
