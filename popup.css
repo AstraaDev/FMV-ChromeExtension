@@ -5,7 +5,7 @@ body {
   }
   
   .banner {
-    margin: 0; /* Assurer qu'il n'y a pas de marge dans la bannière */
+    margin: 0;
   }
   
   .banner img {
@@ -14,18 +14,18 @@ body {
   }
   
   .container {
-    width: 400px; /* Réduire la largeur de la popup pour éviter le défilement */
-    margin: 0 auto; /* Centrer horizontalement */
+    width: 400px;
+    margin: 0 auto;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
-    position: relative; /* Permettre le positionnement absolu pour le footer */
+    box-sizing: border-box;
+    position: relative;
   }
   
   .how-to-use {
-    margin-bottom: 15px; /* Réduire l'espacement sous la section How to Use */
+    margin-bottom: 15px;
   }
   
   .how-to-use h2 {
@@ -33,11 +33,11 @@ body {
   }
   
   .how-to-use p {
-    margin-top: 10px; /* Réduire la marge avant le texte */
+    margin-top: 10px;
   }
   
   .init, .injector {
-    margin-bottom: 20px; /* Réduire l'espacement entre les sections */
+    margin-bottom: 20px;
   }
   
   .init h3, .injector h3 {
@@ -46,15 +46,15 @@ body {
   
   label {
     display: block;
-    margin: 8px 0 4px; /* Réduire les marges pour gagner de l'espace */
+    margin: 8px 0 4px;
   }
   
   select, input[type="number"] {
-    width: calc(100% - 18px); /* Ajuster la largeur pour compenser le padding */
+    width: calc(100% - 18px);
     padding: 8px;
     border-radius: 4px;
     border: 1px solid #ccc;
-    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+    box-sizing: border-box;
   }
   
   button {
@@ -66,7 +66,7 @@ body {
     border-radius: 4px;
     background-color: #007bff;
     color: white;
-    font-size: 14px; /* Réduire la taille de la police */
+    font-size: 14px;
     cursor: pointer;
   }
   
@@ -75,7 +75,7 @@ body {
   }
   
   .injector button {
-    margin-bottom: 8px; /* Réduire la marge inférieure pour rapprocher le bouton du bas du bloc */
+    margin-bottom: 8px;
   }
   
   #inject-status, #init-status {
@@ -83,29 +83,29 @@ body {
   }
   
   .footer {
-    width: 100%; /* Faire en sorte que le footer occupe toute la largeur du conteneur */
-    padding: 5px 0; /* Réduire le padding pour un footer plus compact */
+    width: 100%;
+    padding: 5px 0;
     text-align: center;
-    background-color: #f1f1f1; /* Couleur de fond douce pour le footer */
-    border-top: 1px solid #ddd; /* Bordure supérieure pour délimiter le footer */
-    border-radius: 8px 8px 8px 8px; /* Bordures arrondies en bas */
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Ombre subtile pour un effet de profondeur */
-    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
   }
   
   .footer p {
     margin: 0;
-    font-size: 12px; /* Réduire la taille de la police pour un footer plus compact */
-    color: #333; /* Couleur du texte */
+    font-size: 12px;
+    color: #333;
   }
   
   .footer a {
-    color: #007bff; /* Couleur du lien */
+    color: #007bff;
     text-decoration: none;
-    font-weight: bold; /* Poids de la police pour le lien */
+    font-weight: bold;
   }
   
   .footer a:hover {
-    text-decoration: underline; /* Souligner le lien au survol */
+    text-decoration: underline;
   }
   

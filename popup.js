@@ -1,5 +1,4 @@
 document.getElementById('init').addEventListener('click', () => {
-    // Obtenez l'ID de l'onglet actif
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         const tabId = tabs[0].id;
         

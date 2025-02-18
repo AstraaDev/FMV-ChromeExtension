@@ -1,31 +1,44 @@
-# FMV Chrome Extension
+<p align="center">
+  <img src="https://venturebeat.com/wp-content/uploads/2022/11/press_release_banner.jpg" width="800">
+</p>
 
-## Description
-The FMV Chrome Extension provides a user-friendly graphical interface (GUI) for easier interaction with the [initial repository](https://github.com/AstraaDev/Discord-FarmMergeValley-Injector). Note that this project is still under development.
+<h1 align="center">[Discord] - FarmMergeValley Chrome Extension</h1>
+
+<p align="left">
+  The FMV Chrome Extension provides a user-friendly graphical interface (GUI) for easier interaction with the initial repository: [Discord-FarmMergeValley-Injector](https://github.com/AstraaDev/FarmMergeValley-Injector). Please note that this project is still under active development. At the moment, only the front-end of the Chrome extension has been implemented. The backend, which requires injecting JS code into the web console, is still under development and is not yet functional.
+</p>
+
+---
 
 ## Features
-- Active exclusively on `discord.com` pages.
-- Injects resources directly into the game.
 
-## Setup Instructions
+- [x] **Active exclusively on `discord.com` pages**: The extension only runs when you're on Discord's web pages.
+- [ ] **Injects resources into the game**: The backend, which will inject JS code into the console to provide game resources.
+- [ ] **giveInventoryItem**: Function to give inventory items directly through the interface.
+- [x] **Customizable item configuration**: Users will be able to customize the items injected into the game, including quantities and types.
+- [ ] **Console-based commands**: Future support for running custom commands in the console via the extension.
+- [x] **Improved UI/UX**: Ongoing development for a more intuitive and responsive graphical interface.
 
-### Installation Steps
-1. Clone the repository:
+---
+
+## How To Setup/Install
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/AstraaDev/FMV-ChromeExtension.git
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd FMV-ChromeExtension
-   ```
-3. Load the extension in Chrome:
+2. **Load the extension in Chrome**:
    - Open Chrome and navigate to `chrome://extensions/`.
    - Enable "Developer mode" in the top right corner.
    - Click "Load unpacked" and select the folder from the project directory.
 
+---
+
 ## Example Chrome Extension
-<img src="https://cdn.discordapp.com/attachments/1079127307656122501/1326704198133481512/image.png?ex=67806511&is=677f1391&hm=33b77d0dd44ed23b8fb19bd8ecf6e9f4d230986feb9e294078da6165dcca9ae8&" alt="FMV Chrome Extension" width="400">
+<img src="img/readme_screenshot/example.png" alt="FMV Chrome Extension" width="400">
+
+---
 
 ## Additional Information
-- **Support**: For assistance, join the [Discord Server](https://discord.gg/PKR7nM9j9U).
-- **Contributions**: Contributions are welcome! Feel free to open an issue or create a pull request to improve this project.
+- Need help? Join the [Discord Server](https://discord.gg/PKR7nM9j9U).
+- Contributions are welcome! Open an issue or create a pull request.
