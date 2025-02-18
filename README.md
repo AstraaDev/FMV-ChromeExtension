@@ -4,9 +4,8 @@
 
 <h1 align="center">[Discord] - FarmMergeValley Chrome Extension</h1>
 
-<p align="left">
-  The FMV Chrome Extension provides a user-friendly graphical interface (GUI) for easier interaction with the initial repository: [Discord-FarmMergeValley-Injector](https://github.com/AstraaDev/FarmMergeValley-Injector). Please note that this project is still under active development. At the moment, only the front-end of the Chrome extension has been implemented. The backend, which requires injecting JS code into the web console, is still under development and is not yet functional.
-</p>
+The FMV Chrome Extension provides a user-friendly graphical interface (GUI) for easier interaction with the initial repository: [FarmMergeValley Injector](https://github.com/AstraaDev/FarmMergeValley-Injector).
+Please note that this project is still under active development. At the moment, only the front-end of the Chrome extension has been implemented. The backend, which requires injecting JS code into the web console, is still under development and is not yet functional.
 
 ---
 
