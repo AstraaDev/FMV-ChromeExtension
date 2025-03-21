@@ -39,5 +39,5 @@ Please note that this project is still under active development. At the moment, 
 ---
 
 ## Additional Information
-- Need help? Join the [Discord Server](https://astraadev.github.io/discord).
+- Need help? Join the [Discord Server](https://astraadev.github.io/#/discord).
 - Contributions are welcome! Open an issue or create a pull request.
